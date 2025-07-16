@@ -16,6 +16,7 @@ class SocketContracts:
     aur: str = "0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3"
     ftm: str = "0x040993fbF458b95871Cd2D73Ee2E09F4AF6d56bB"
     base: str = "0xE8c5b8488FeaFB5df316Be73EdE3Bdc26571a773"
+    monad: str = "0x79e9aB3d98bD60fCb78D9b510b474eF19DF148cB"
     abi: list = open("./abi/socket.json", "r").read()
 
 
