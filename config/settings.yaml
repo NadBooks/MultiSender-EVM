@@ -6,4 +6,5 @@ zk_era_rpc: https://mainnet.era.zksync.io
 arb_rpc: https://arbitrum-mainnet.infura.io
 avax_rpc: https://rpc.ankr.com/avalanche
 base_rpc: https://1rpc.io/base
+monad_rpc: https://testnet-rpc.monad.xyz
 max_priority_fee_per_gas: 0.5
