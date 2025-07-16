@@ -11,6 +11,7 @@ CHAINS = [
     "ZkSync Era",
     "Avalanche",
     "Base",
+    "Monad",
 ]
 
 RPC_URLS = {
@@ -22,6 +23,7 @@ RPC_URLS = {
     "ZkSync Era": config.zk_era_rpc,
     "Avalanche": config.avax_rpc,
     "Base": config.base_rpc,
+    "Monad": config.monad_rpc,
 }
 
 CHAIN_IDS = {
@@ -33,6 +35,7 @@ CHAIN_IDS = {
     "ZkSync Era": 324,
     "Avalanche": 43114,
     "Base": 8453,
+    "Monad": 10143,
 }
 
 
@@ -45,6 +48,7 @@ CHAIN_SYMBOLS = {
     "ZkSync Era": "ETH",
     "Avalanche": "AVAX",
     "Base": "ETH",
+    "Monad": "MON",
 }
 
 
@@ -57,6 +61,7 @@ CHAIN_CONTRACTS = {
     "ZkSync Era": SocketContracts.zk_era,
     "Avalanche": SocketContracts.avax,
     "Base": SocketContracts.base,
+    "Monad": SocketContracts.mon,
 }
 
 
@@ -69,4 +74,5 @@ CHAINS_EXPLORERS = {
     "ZkSync Era": "https://explorer.zksync.io/tx/",
     "Avalanche": "https://snowtrace.io/tx/",
     "Base": "https://basescan.org/tx/",
+    "Monad": "https://testnet.monadexplorer.com",
 }
