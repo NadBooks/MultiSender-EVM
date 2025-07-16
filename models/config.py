@@ -10,4 +10,5 @@ class Config(BaseModel):
     arb_rpc: HttpUrl
     avax_rpc: HttpUrl
     base_rpc: HttpUrl
+    monad_rpc: HttpUrl
     max_priority_fee_per_gas: float = 0.1
